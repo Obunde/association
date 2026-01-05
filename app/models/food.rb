@@ -4,5 +4,5 @@ class Food < ApplicationRecord
   has_many :orders, through: :order_foods
 
   # STI (Single Table Inheritance) setup
-  self.inheritance_column = :type
+  # self.inheritance_column = :type
 end
